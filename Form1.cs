@@ -144,6 +144,13 @@ namespace Motorcycle_Rental
             return name;
         }
 
+    
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            // Call the existing button1_Click logic to handle authentication and navigation
+            button1_Click(sender, e);
+        }
         private bool AuthenticateUser(string email, string password)
         {
             try
@@ -171,12 +178,6 @@ namespace Motorcycle_Rental
             }
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            // Call the existing button1_Click logic to handle authentication and navigation
-            button1_Click(sender, e);
-        }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form3 form3 = new Form3();
@@ -187,6 +188,7 @@ namespace Motorcycle_Rental
         {
             Form7 form7 = new Form7();
             form7.Show();
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -222,6 +224,11 @@ namespace Motorcycle_Rental
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
 
         }

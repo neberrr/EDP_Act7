@@ -43,7 +43,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(322, 307);
+            button1.Location = new Point(322, 304);
             button1.Name = "button1";
             button1.Size = new Size(77, 29);
             button1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(422, 307);
+            button2.Location = new Point(458, 304);
             button2.Name = "button2";
             button2.Size = new Size(87, 29);
             button2.TabIndex = 1;
@@ -88,6 +88,7 @@
             textBox2.PasswordChar = '*';
             textBox2.Size = new Size(187, 27);
             textBox2.TabIndex = 4;
+            textBox2.TextChanged += textBox2_TextChanged_1;
             // 
             // label2
             // 
@@ -115,7 +116,7 @@
             // 
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Location = new Point(356, 275);
+            linkLabel1.Location = new Point(418, 272);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(127, 20);
             linkLabel1.TabIndex = 7;
